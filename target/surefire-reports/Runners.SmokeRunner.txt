@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: Runners.SmokeRunner
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.688 s <<< FAILURE! - in Runners.SmokeRunner
+Test Dry rum(Data Table practice)  Time elapsed: 0.031 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'dry run is bla bla' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("dry run is bla bla")
+public void dry_run_is_bla_bla() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I get bla bla bla")
+public void i_get_bla_bla_bla() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

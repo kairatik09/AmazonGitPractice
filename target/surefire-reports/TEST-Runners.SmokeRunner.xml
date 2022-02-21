@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Runners.SmokeRunner" time="2.688" tests="11" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\user\IdeaProjects\Example.java\Fall2021\target\test-classes;C:\Users\user\IdeaProjects\Example.java\Fall2021\target\classes;C:\Users\user\.m2\repository\io\cucumber\cucumber-java\7.2.2\cucumber-java-7.2.2.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-core\7.2.2\cucumber-core-7.2.2.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin\7.2.2\cucumber-gherkin-7.2.2.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.2\cucumber-gherkin-messages-7.2.2.jar;C:\Users\user\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\user\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\user\.m2\repository\io\cucumber\datatable\7.2.2\datatable-7.2.2.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-plugin\7.2.2\cucumber-plugin-7.2.2.jar;C:\Users\user\.m2\repository\io\cucumber\docstring\7.2.2\docstring-7.2.2.jar;C:\Users\user\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\user\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-junit\7.2.2\cucumber-junit-7.2.2.jar;C:\Users\user\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire5171053084321407471\surefirebooter325887244545309671.jar C:\Users\user\AppData\Local\Temp\surefire5171053084321407471 2022-02-21T18-09-09_899-jvmRun1 surefire434181004023153173tmp surefire_03114390957398317577tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\user\IdeaProjects\Example.java\Fall2021\target\test-classes;C:\Users\user\IdeaProjects\Example.java\Fall2021\target\classes;C:\Users\user\.m2\repository\io\cucumber\cucumber-java\7.2.2\cucumber-java-7.2.2.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-core\7.2.2\cucumber-core-7.2.2.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin\7.2.2\cucumber-gherkin-7.2.2.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.2\cucumber-gherkin-messages-7.2.2.jar;C:\Users\user\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\user\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\user\.m2\repository\io\cucumber\datatable\7.2.2\datatable-7.2.2.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-plugin\7.2.2\cucumber-plugin-7.2.2.jar;C:\Users\user\.m2\repository\io\cucumber\docstring\7.2.2\docstring-7.2.2.jar;C:\Users\user\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\user\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-junit\7.2.2\cucumber-junit-7.2.2.jar;C:\Users\user\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_301\jre"/>
+    <property name="basedir" value="C:\Users\user\IdeaProjects\Example.java\Fall2021"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire5171053084321407471\surefirebooter325887244545309671.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_301\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_301-b09"/>
+    <property name="user.name" value="user"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="cucumber.options" value=" --tags @Smoke"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_301"/>
+    <property name="user.dir" value="C:\Users\user\IdeaProjects\Example.java\Fall2021"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.4\bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.301-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Verify user can login with valid credentials" classname="Login functionality" time="0.094"/>
+  <testcase name="Verify user can login with invalid login and valid password" classname="Login functionality" time="0.015"/>
+  <testcase name="Verify user is not able to login with invalid email and valid password" classname="Login functionality" time="0"/>
+  <testcase name="Order Kimchi from Arigato" classname="Data Table practice" time="0.016"/>
+  <testcase name="Verify folloowing tabs are displayed in Amazon" classname="Data Table practice" time="0"/>
+  <testcase name="Cars model" classname="Data Table practice" time="0.031"/>
+  <testcase name="Test Dry rum" classname="Data Table practice" time="0.031">
+    <error message="The step &apos;dry run is bla bla&apos; and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;dry run is bla bla&quot;)&#10;public void dry_run_is_bla_bla() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;I get bla bla bla&quot;)&#10;public void i_get_bla_bla_bla() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'dry run is bla bla' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("dry run is bla bla")
+public void dry_run_is_bla_bla() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I get bla bla bla")
+public void i_get_bla_bla_bla() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[
+@Smoke
+Scenario: Test Dry rum     &amp#27;[90m# src/test/resources/features/DataTables.feature:35&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mdry run is bla bla&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI get bla bla bla&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Multiple tests #1" classname="Scenario: outline demo" time="0"/>
+  <testcase name="Multiple tests #2" classname="Scenario: outline demo" time="0.016"/>
+  <testcase name="Multiple tests #3" classname="Scenario: outline demo" time="0"/>
+  <testcase name="Multiple tests #4" classname="Scenario: outline demo" time="0.015"/>
+</testsuite>

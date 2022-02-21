@@ -1,0 +1,56 @@
+Cucumber
+Cucumber JVM - это один из популярных инструментов реализации Behavior Driven Development (BDD) подхода в Java.
+Этот инструмент позволяет создавать тесты любому участнику проектной команды.
+Для этого используют язык Gherkin, в котором основными являются следующие слова: Given, When и Then.
+Тесты, созданные таким образом, хранятся в файлах с расширением ".feature".
+
+TTD ---> Test Driven Development     (1.code --> 2.Testing) ; Srazu pristapili ka razrabotke pisali cod potom testirovali TEST RAIL
+
+BDD --> Behaviour driven development (Cucumber            ) ; Na osnove cenarii , TEST CASE
+
+
+Feature: Login functionality
+ # here we would write the feature to be tested
+ # We create one feature file per feature(functionality)
+
+ #Gherkin ---> language (Scenario,Given,When,And)
+   Background: User is on Facebook                            --> (Shtoby ne dublirovat)
+     Given User is logged in to https://www.facebook.com/
+
+Scenario: Verify user can login with valid credentials
+    # Given steps are used for precondition
+    Given User is logged in to https://www.facebook.com/
+    # When Action
+    When User enter test@test.com to email field
+    # And
+    And User should enter Hello12345 in password input field
+    And User should click on Log In button
+    # Then Validation
+    Then User should successfully logged in to the Facebook
+
+    parseInt ---> string to int
+
+    mvn clean install "-Dcucumber.options= --tags @Smoke"
+
+
+    Опции Cucumber:
+    features – путь к папке с .feature файлами. Фреймворк будет искать файлы в этой и во всех дочерних папках.
+    Можно указать несколько папок, например: features = {«src/test/features», «src/test/feat»};
+
+    glue – пакет, в котором находятся классы с реализацией шагов и «хуков».
+    Можно указать несколько пакетов, например, так: glue = {«ru.savkk.test», «ru.savkk.hooks»};
+
+    tags – фильтр запускаемых тестов по тэгам. Список тэгов можно перечислить через запятую.
+    Символ ~ исключает тест из списка запускаемых тестов, например ~@fail;
+
+    dryRun – если true, то сразу после запуска теста фреймворк проверяет,
+    все ли шаги теста разработаны, если нет, то выдает предупреждение.
+    При false предупреждение будет выдаваться по достижении неразработанного шага. По умолчанию false.
+
+    strict – если true, то при встрече неразработанного шага тест остановится с ошибкой.
+    False — неразработанные шаги пропускаются. По умолчанию false.
+
+    snippets – указывает в каком формате фреймворк будет предлагать шаблон для нереализованных шагов.
+    Доступны значения: SnippetType.CAMELCASE, SnippetType.UNDERSCORE.
+
+    name – фильтрует запускаемые тесты по названиям удовлетворяющим регулярному выражению.

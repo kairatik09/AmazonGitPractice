@@ -1,0 +1,7 @@
+step_defs\Test.class
+Runners\SmokeRunner.class
+step_defs\CucumberDemoSteps.class
+step_defs\DataTableSteps.class
+step_defs\ScenarioOutlineSteps.class
+Runners\RegressionRunner.class
+step_defs\BankApps.class
