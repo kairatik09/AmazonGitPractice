@@ -4,7 +4,7 @@ Cucumber JVM - это один из популярных инструменто�
 Для этого используют язык Gherkin, в котором основными являются следующие слова: Given, When и Then.
 Тесты, созданные таким образом, хранятся в файлах с расширением ".feature".
 
-TTD ---> Test Driven Development     (1.code --> 2.Testing) ; Srazu pristapili ka razrabotke pisali cod potom testirovali TEST RAIL
+TTD ---> com.digital_nomads.javaFall2021.Test Driven Development     (1.code --> 2.Testing) ; Srazu pristapili ka razrabotke pisali cod potom testirovali TEST RAIL
 
 BDD --> Behaviour driven development (Cucumber            ) ; Na osnove cenarii , TEST CASE
 

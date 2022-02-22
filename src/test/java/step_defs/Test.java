@@ -6,7 +6,7 @@ public class Test {
 
 
     @org.junit.Test
-    @DisplayName("Test login")
+    @DisplayName("com.digital_nomads.javaFall2021.Test login")
     //@Tag("Smoke")
     public void testlogin(){
         System.out.println("dasdasd");

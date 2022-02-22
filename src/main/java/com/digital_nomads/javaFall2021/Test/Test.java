@@ -1,4 +1,4 @@
-package Test;
+package com.digital_nomads.javaFall2021.Test;
 
 public class Test {
 
